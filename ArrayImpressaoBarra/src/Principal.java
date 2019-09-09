@@ -8,14 +8,13 @@ public class Principal {
 		for (int cont = 0; cont < array.length; cont++){
 		
 			if (cont == 10)
-			System.out.printf("  "+100+":");
+			System.out.printf("  "+100+": ");
 			
 			else
-			System.out.printf("%02d-%02d: ",
-					cont * 10, cont * 10 + 9);
+			System.out.printf("%02d-%02d: ",cont * 10, cont * 10 + 9);
 	
 		
-			for (int stars = 0; stars < array[cont]; stars++)
+			for (int esrelas = 0; esrelas < array[cont]; esrelas++)
 			System.out.print("*");
 		
 			System.out.println();
