@@ -8,6 +8,7 @@ public class ArrayLinhaComando {
 			
 			System.out.println("ERRO : Digite novamente o inteiro, "
 					+ "um tamanho de matriz , valor inicial de incremento.");
+			
 		}else {
 			
 			int arrayLength = Integer.parseInt(args[0]);
