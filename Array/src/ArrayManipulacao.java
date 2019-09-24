@@ -7,6 +7,7 @@ public class ArrayManipulacao {
 		
 		double doubleArray [] = { 8.4, 9.3, 0.2, 7.9, 3.4};
 		
+		//sort - muda a ordem dos elementos
 		Arrays.sort(doubleArray);
 		System.out.printf("doubleArray: ");
 		
@@ -14,6 +15,7 @@ public class ArrayManipulacao {
 			System.out.printf("%.1f ", valor);
 		}
 		
+		//fill - preenche a matriz com um valor
 		int matrizIntPreenchida [] = new int[10]; 	
 		Arrays.fill(matrizIntPreenchida, 7);
 		displayArray(matrizIntPreenchida, "matrizIntPreenchida");
